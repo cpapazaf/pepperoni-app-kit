@@ -5,7 +5,7 @@ import AppViewContainer from './src/modules/AppViewContainer';
 import React, {Component} from 'react';
 import {AppRegistry} from 'react-native';
 
-class --help extends Component {
+class PepperoniAppTemplate extends Component {
   render() {
     return (
       <Provider store={store}>
@@ -15,4 +15,4 @@ class --help extends Component {
   }
 }
 
-AppRegistry.registerComponent('--help', () => --help);
+AppRegistry.registerComponent('PepperoniAppTemplate', () => PepperoniAppTemplate);
